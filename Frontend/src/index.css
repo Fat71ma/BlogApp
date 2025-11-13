@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light text-primary font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-5 py-2 rounded-md font-medium;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-light hover:bg-highlight transition;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl text-highlight font-extrabold mb-8 border-b-2 border-accent inline-block;
+  }
+}
