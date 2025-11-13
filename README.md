@@ -21,11 +21,11 @@ npm install
 ```
 This will automatically install:
 
-React
-React Router DOM
-Tailwind CSS
+(React,
+React Router DOM,
+Tailwind CSS,
 Vite (for development)
-
+)
 3. Run Development Server
 ```bash
 npm run dev
