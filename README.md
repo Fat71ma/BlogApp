@@ -14,6 +14,7 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/Fat71ma/BlogApp.git
 ```
+
 2. Install NPM Packages
 ```bash
 cd Frontend
@@ -26,6 +27,8 @@ React Router DOM,
 Tailwind CSS,
 Vite (for development)
 )
+
+
 3. Run Development Server
 ```bash
 npm run dev
