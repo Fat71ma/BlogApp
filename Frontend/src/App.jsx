@@ -4,8 +4,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Stories from "./pages/Stories";
 import Contact from "./pages/Contact";
-// import Posts from "./pages/Posts"; // ✅ make sure this is imported
-import PostDetails from "./pages/PostDetail"; // ✅ import your details page
+// import Posts from "./pages/Posts";
+import PostDetails from "./pages/PostDetail";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
