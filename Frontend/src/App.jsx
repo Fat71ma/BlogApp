@@ -5,8 +5,9 @@ import Home from "./pages/Home";
 import Stories from "./pages/Stories";
 import Contact from "./pages/Contact";
 // import Posts from "./pages/Posts";
-import PostDetails from "./pages/PostDetail";
+import PostDetails from "./pages/PostDetail"; 
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
 
 export default function App() {
   return (
@@ -17,10 +18,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/stories" element={<Stories />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          
 
-          {/* Posts List Page */}
-          {/* <Route path="/posts" element={<Posts />} /> */}
-
+        
           {/* Dynamic Post Details Page */}
           <Route path="/stories/:id" element={<PostDetails />} />
 
